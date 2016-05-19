@@ -1,5 +1,7 @@
 /* Author: Alonzo Green */
 
+/* NOTE: This file can definitely be refactored, this is just how I could get it to work for now */
+
 /* Animations */
 
 @-webkit-keyframes circle-fill-animation {
