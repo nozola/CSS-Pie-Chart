@@ -1,0 +1,868 @@
+/* Author: Alonzo Green */
+
+/* Animations */
+
+@-webkit-keyframes circle-fill-animation {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  25% {border-left-color:transparent;}
+  26% {
+    border-left-color:  #09F;
+  }
+  50% {border-bottom-color:transparent;}
+  51% {
+    border-bottom-color:  #09F;
+  }
+  75% {border-right-color:transparent;}
+  76% {
+    border-right-color:  #09F;
+  }
+  100% {
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+    transform: rotate(315deg);
+    border-left-color:  #09F;
+    border-bottom-color:  #09F;
+    border-right-color:  #09F;
+  }
+}
+
+@-moz-keyframes circle-fill-animation {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  25% {border-left-color:transparent;}
+  26% {
+    border-left-color:  #09F;
+  }
+  50% {border-bottom-color:transparent;}
+  51% {
+    border-bottom-color:  #09F;
+  }
+  75% {border-right-color:transparent;}
+  76% {
+    border-right-color:  #09F;
+  }
+  100% {
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+    transform: rotate(315deg);
+    border-left-color:  #09F;
+    border-bottom-color:  #09F;
+    border-right-color:  #09F;
+  }
+}
+@-o-keyframes circle-fill-animation {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  25% {border-left-color:transparent;}
+  26% {
+    border-left-color:  #09F;
+  }
+  50% {border-bottom-color:transparent;}
+  51% {
+    border-bottom-color:  #09F;
+  }
+  75% {border-right-color:transparent;}
+  76% {
+    border-right-color:  #09F;
+  }
+  100% {
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+    transform: rotate(315deg);
+    border-left-color:  #09F;
+    border-bottom-color:  #09F;
+    border-right-color:  #09F;
+  }
+}
+@keyframes circle-fill-animation {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  25% {border-left-color:transparent;}
+  26% {
+    border-left-color:  #09F;
+  }
+  50% {border-bottom-color:transparent;}
+  51% {
+    border-bottom-color:  #09F;
+  }
+  75% {border-right-color:transparent;}
+  76% {
+    border-right-color:  #09F;
+  }
+  100% {
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+    transform: rotate(315deg);
+    border-left-color:  #09F;
+    border-bottom-color:  #09F;
+    border-right-color:  #09F;
+  }
+}
+
+@-webkit-keyframes circle-fill-cover-animation {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  75% {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  100% {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+@-moz-keyframes circle-fill-cover-animation {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  75% {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  100% {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+@-o-keyframes circle-fill-cover-animation {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  75% {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  100% {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+@keyframes circle-fill-cover-animation {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  75% {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  100% {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+
+@-webkit-keyframes circle-fill-cover-cover-animation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  26% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes circle-fill-cover-cover-animation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  26% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes circle-fill-cover-cover-animation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  26% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes circle-fill-cover-cover-animation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  26% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Percentage iteration definitions */
+
+.percent-0 .circle-fill, .percent-0 .circle-fill-cover, .percent-0 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0;
+	-moz-animation-iteration-count: 0;
+	-o-animation-iteration-count: 0;
+	animation-iteration-count: 0;
+}
+.percent-1 .circle-fill, .percent-1 .circle-fill-cover, .percent-1 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.01;
+	-moz-animation-iteration-count: 0.01;
+	-o-animation-iteration-count: 0.01;
+	animation-iteration-count: 0.01;
+}
+.percent-2 .circle-fill, .percent-2 .circle-fill-cover, .percent-2 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.02;
+	-moz-animation-iteration-count: 0.02;
+	-o-animation-iteration-count: 0.02;
+	animation-iteration-count: 0.02;
+}
+.percent-3 .circle-fill, .percent-3 .circle-fill-cover, .percent-3 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.03;
+	-moz-animation-iteration-count: 0.03;
+	-o-animation-iteration-count: 0.03;
+	animation-iteration-count: 0.03;
+}
+.percent-4 .circle-fill, .percent-4 .circle-fill-cover, .percent-4 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.04;
+	-moz-animation-iteration-count: 0.04;
+	-o-animation-iteration-count: 0.04;
+	animation-iteration-count: 0.04;
+}
+.percent-5 .circle-fill, .percent-5 .circle-fill-cover, .percent-5 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.05;
+	-moz-animation-iteration-count: 0.05;
+	-o-animation-iteration-count: 0.05;
+	animation-iteration-count: 0.05;
+}
+.percent-6 .circle-fill, .percent-6 .circle-fill-cover, .percent-6 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.06;
+	-moz-animation-iteration-count: 0.06;
+	-o-animation-iteration-count: 0.06;
+	animation-iteration-count: 0.06;
+}
+.percent-7 .circle-fill, .percent-7 .circle-fill-cover, .percent-7 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.07;
+	-moz-animation-iteration-count: 0.07;
+	-o-animation-iteration-count: 0.07;
+	animation-iteration-count: 0.07;
+}
+.percent-8 .circle-fill, .percent-8 .circle-fill-cover, .percent-8 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.08;
+	-moz-animation-iteration-count: 0.08;
+	-o-animation-iteration-count: 0.08;
+	animation-iteration-count: 0.08;
+}
+.percent-9 .circle-fill, .percent-9 .circle-fill-cover, .percent-9 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.09;
+	-moz-animation-iteration-count: 0.09;
+	-o-animation-iteration-count: 0.09;
+	animation-iteration-count: 0.09;
+}
+.percent-10 .circle-fill, .percent-10 .circle-fill-cover, .percent-10 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.1;
+	-moz-animation-iteration-count: 0.1;
+	-o-animation-iteration-count: 0.1;
+	animation-iteration-count: 0.1;
+}
+.percent-11 .circle-fill, .percent-11 .circle-fill-cover, .percent-11 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.11;
+	-moz-animation-iteration-count: 0.11;
+	-o-animation-iteration-count: 0.11;
+	animation-iteration-count: 0.11;
+}
+.percent-12 .circle-fill, .percent-12 .circle-fill-cover, .percent-12 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.12;
+	-moz-animation-iteration-count: 0.12;
+	-o-animation-iteration-count: 0.12;
+	animation-iteration-count: 0.12;
+}
+.percent-13 .circle-fill, .percent-13 .circle-fill-cover, .percent-13 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.13;
+	-moz-animation-iteration-count: 0.13;
+	-o-animation-iteration-count: 0.13;
+	animation-iteration-count: 0.13;
+}
+.percent-14 .circle-fill, .percent-14 .circle-fill-cover, .percent-14 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.14;
+	-moz-animation-iteration-count: 0.14;
+	-o-animation-iteration-count: 0.14;
+	animation-iteration-count: 0.14;
+}
+.percent-15 .circle-fill, .percent-15 .circle-fill-cover, .percent-15 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.15;
+	-moz-animation-iteration-count: 0.15;
+	-o-animation-iteration-count: 0.15;
+	animation-iteration-count: 0.15;
+}
+.percent-16 .circle-fill, .percent-16 .circle-fill-cover, .percent-16 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.16;
+	-moz-animation-iteration-count: 0.16;
+	-o-animation-iteration-count: 0.16;
+	animation-iteration-count: 0.16;
+}
+.percent-17 .circle-fill, .percent-17 .circle-fill-cover, .percent-17 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.17;
+	-moz-animation-iteration-count: 0.17;
+	-o-animation-iteration-count: 0.17;
+	animation-iteration-count: 0.17;
+}
+.percent-18 .circle-fill, .percent-18 .circle-fill-cover, .percent-18 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.18;
+	-moz-animation-iteration-count: 0.18;
+	-o-animation-iteration-count: 0.18;
+	animation-iteration-count: 0.18;
+}
+.percent-19 .circle-fill, .percent-19 .circle-fill-cover, .percent-19 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.19;
+	-moz-animation-iteration-count: 0.19;
+	-o-animation-iteration-count: 0.19;
+	animation-iteration-count: 0.19;
+}
+.percent-20 .circle-fill, .percent-20 .circle-fill-cover, .percent-20 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.2;
+	-moz-animation-iteration-count: 0.2;
+	-o-animation-iteration-count: 0.2;
+	animation-iteration-count: 0.2;
+}
+.percent-21 .circle-fill, .percent-21 .circle-fill-cover, .percent-21 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.21;
+	-moz-animation-iteration-count: 0.21;
+	-o-animation-iteration-count: 0.21;
+	animation-iteration-count: 0.21;
+}
+.percent-22 .circle-fill, .percent-22 .circle-fill-cover, .percent-22 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.22;
+	-moz-animation-iteration-count: 0.22;
+	-o-animation-iteration-count: 0.22;
+	animation-iteration-count: 0.22;
+}
+.percent-23 .circle-fill, .percent-23 .circle-fill-cover, .percent-23 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.23;
+	-moz-animation-iteration-count: 0.23;
+	-o-animation-iteration-count: 0.23;
+	animation-iteration-count: 0.23;
+}
+.percent-24 .circle-fill, .percent-24 .circle-fill-cover, .percent-24 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.24;
+	-moz-animation-iteration-count: 0.24;
+	-o-animation-iteration-count: 0.24;
+	animation-iteration-count: 0.24;
+}
+.percent-25 .circle-fill, .percent-25 .circle-fill-cover, .percent-25 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.25;
+	-moz-animation-iteration-count: 0.25;
+	-o-animation-iteration-count: 0.25;
+	animation-iteration-count: 0.25;
+}
+.percent-26 .circle-fill, .percent-26 .circle-fill-cover, .percent-26 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.26;
+	-moz-animation-iteration-count: 0.26;
+	-o-animation-iteration-count: 0.26;
+	animation-iteration-count: 0.26;
+}
+.percent-27 .circle-fill, .percent-27 .circle-fill-cover, .percent-27 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.27;
+	-moz-animation-iteration-count: 0.27;
+	-o-animation-iteration-count: 0.27;
+	animation-iteration-count: 0.27;
+}
+.percent-28 .circle-fill, .percent-28 .circle-fill-cover, .percent-28 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.28;
+	-moz-animation-iteration-count: 0.28;
+	-o-animation-iteration-count: 0.28;
+	animation-iteration-count: 0.28;
+}
+.percent-29 .circle-fill, .percent-29 .circle-fill-cover, .percent-29 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.29;
+	-moz-animation-iteration-count: 0.29;
+	-o-animation-iteration-count: 0.29;
+	animation-iteration-count: 0.29;
+}
+.percent-30 .circle-fill, .percent-30 .circle-fill-cover, .percent-30 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.3;
+	-moz-animation-iteration-count: 0.3;
+	-o-animation-iteration-count: 0.3;
+	animation-iteration-count: 0.3;
+}
+.percent-31 .circle-fill, .percent-31 .circle-fill-cover, .percent-31 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.31;
+	-moz-animation-iteration-count: 0.31;
+	-o-animation-iteration-count: 0.31;
+	animation-iteration-count: 0.31;
+}
+.percent-32 .circle-fill, .percent-32 .circle-fill-cover, .percent-32 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.32;
+	-moz-animation-iteration-count: 0.32;
+	-o-animation-iteration-count: 0.32;
+	animation-iteration-count: 0.32;
+}
+.percent-33 .circle-fill, .percent-33 .circle-fill-cover, .percent-33 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.33;
+	-moz-animation-iteration-count: 0.33;
+	-o-animation-iteration-count: 0.33;
+	animation-iteration-count: 0.33;
+}
+.percent-34 .circle-fill, .percent-34 .circle-fill-cover, .percent-34 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.34;
+	-moz-animation-iteration-count: 0.34;
+	-o-animation-iteration-count: 0.34;
+	animation-iteration-count: 0.34;
+}
+.percent-35 .circle-fill, .percent-35 .circle-fill-cover, .percent-35 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.35;
+	-moz-animation-iteration-count: 0.35;
+	-o-animation-iteration-count: 0.35;
+	animation-iteration-count: 0.35;
+}
+.percent-36 .circle-fill, .percent-36 .circle-fill-cover, .percent-36 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.36;
+	-moz-animation-iteration-count: 0.36;
+	-o-animation-iteration-count: 0.36;
+	animation-iteration-count: 0.36;
+}
+.percent-37 .circle-fill, .percent-37 .circle-fill-cover, .percent-37 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.37;
+	-moz-animation-iteration-count: 0.37;
+	-o-animation-iteration-count: 0.37;
+	animation-iteration-count: 0.37;
+}
+.percent-38 .circle-fill, .percent-38 .circle-fill-cover, .percent-38 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.38;
+	-moz-animation-iteration-count: 0.38;
+	-o-animation-iteration-count: 0.38;
+	animation-iteration-count: 0.38;
+}
+.percent-39 .circle-fill, .percent-39 .circle-fill-cover, .percent-39 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.39;
+	-moz-animation-iteration-count: 0.39;
+	-o-animation-iteration-count: 0.39;
+	animation-iteration-count: 0.39;
+}
+.percent-40 .circle-fill, .percent-40 .circle-fill-cover, .percent-40 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.4;
+	-moz-animation-iteration-count: 0.4;
+	-o-animation-iteration-count: 0.4;
+	animation-iteration-count: 0.4;
+}
+.percent-41 .circle-fill, .percent-41 .circle-fill-cover, .percent-41 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.41;
+	-moz-animation-iteration-count: 0.41;
+	-o-animation-iteration-count: 0.41;
+	animation-iteration-count: 0.41;
+}
+.percent-42 .circle-fill, .percent-42 .circle-fill-cover, .percent-42 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.42;
+	-moz-animation-iteration-count: 0.42;
+	-o-animation-iteration-count: 0.42;
+	animation-iteration-count: 0.42;
+}
+.percent-43 .circle-fill, .percent-43 .circle-fill-cover, .percent-43 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.43;
+	-moz-animation-iteration-count: 0.43;
+	-o-animation-iteration-count: 0.43;
+	animation-iteration-count: 0.43;
+}
+.percent-44 .circle-fill, .percent-44 .circle-fill-cover, .percent-44 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.44;
+	-moz-animation-iteration-count: 0.44;
+	-o-animation-iteration-count: 0.44;
+	animation-iteration-count: 0.44;
+}
+.percent-45 .circle-fill, .percent-45 .circle-fill-cover, .percent-45 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.45;
+	-moz-animation-iteration-count: 0.45;
+	-o-animation-iteration-count: 0.45;
+	animation-iteration-count: 0.45;
+}
+.percent-46 .circle-fill, .percent-46 .circle-fill-cover, .percent-46 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.46;
+	-moz-animation-iteration-count: 0.46;
+	-o-animation-iteration-count: 0.46;
+	animation-iteration-count: 0.46;
+}
+.percent-47 .circle-fill, .percent-47 .circle-fill-cover, .percent-47 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.47;
+	-moz-animation-iteration-count: 0.47;
+	-o-animation-iteration-count: 0.47;
+	animation-iteration-count: 0.47;
+}
+.percent-48 .circle-fill, .percent-48 .circle-fill-cover, .percent-48 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.48;
+	-moz-animation-iteration-count: 0.48;
+	-o-animation-iteration-count: 0.48;
+	animation-iteration-count: 0.48;
+}
+.percent-49 .circle-fill, .percent-49 .circle-fill-cover, .percent-49 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.49;
+	-moz-animation-iteration-count: 0.49;
+	-o-animation-iteration-count: 0.49;
+	animation-iteration-count: 0.49;
+}
+.percent-50 .circle-fill, .percent-50 .circle-fill-cover, .percent-50 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.5;
+	-moz-animation-iteration-count: 0.5;
+	-o-animation-iteration-count: 0.5;
+	animation-iteration-count: 0.5;
+}
+.percent-51 .circle-fill, .percent-51 .circle-fill-cover, .percent-51 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.51;
+	-moz-animation-iteration-count: 0.51;
+	-o-animation-iteration-count: 0.51;
+	animation-iteration-count: 0.51;
+}
+.percent-52 .circle-fill, .percent-52 .circle-fill-cover, .percent-52 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.52;
+	-moz-animation-iteration-count: 0.52;
+	-o-animation-iteration-count: 0.52;
+	animation-iteration-count: 0.52;
+}
+.percent-53 .circle-fill, .percent-53 .circle-fill-cover, .percent-53 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.53;
+	-moz-animation-iteration-count: 0.53;
+	-o-animation-iteration-count: 0.53;
+	animation-iteration-count: 0.53;
+}
+.percent-54 .circle-fill, .percent-54 .circle-fill-cover, .percent-54 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.54;
+	-moz-animation-iteration-count: 0.54;
+	-o-animation-iteration-count: 0.54;
+	animation-iteration-count: 0.54;
+}
+.percent-55 .circle-fill, .percent-55 .circle-fill-cover, .percent-55 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.55;
+	-moz-animation-iteration-count: 0.55;
+	-o-animation-iteration-count: 0.55;
+	animation-iteration-count: 0.55;
+}
+.percent-56 .circle-fill, .percent-56 .circle-fill-cover, .percent-56 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.56;
+	-moz-animation-iteration-count: 0.56;
+	-o-animation-iteration-count: 0.56;
+	animation-iteration-count: 0.56;
+}
+.percent-57 .circle-fill, .percent-57 .circle-fill-cover, .percent-57 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.57;
+	-moz-animation-iteration-count: 0.57;
+	-o-animation-iteration-count: 0.57;
+	animation-iteration-count: 0.57;
+}
+.percent-58 .circle-fill, .percent-58 .circle-fill-cover, .percent-58 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.58;
+	-moz-animation-iteration-count: 0.58;
+	-o-animation-iteration-count: 0.58;
+	animation-iteration-count: 0.58;
+}
+.percent-59 .circle-fill, .percent-59 .circle-fill-cover, .percent-59 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.59;
+	-moz-animation-iteration-count: 0.59;
+	-o-animation-iteration-count: 0.59;
+	animation-iteration-count: 0.59;
+}
+.percent-60 .circle-fill, .percent-60 .circle-fill-cover, .percent-60 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.6;
+	-moz-animation-iteration-count: 0.6;
+	-o-animation-iteration-count: 0.6;
+	animation-iteration-count: 0.6;
+}
+.percent-61 .circle-fill, .percent-61 .circle-fill-cover, .percent-61 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.61;
+	-moz-animation-iteration-count: 0.61;
+	-o-animation-iteration-count: 0.61;
+	animation-iteration-count: 0.61;
+}
+.percent-62 .circle-fill, .percent-62 .circle-fill-cover, .percent-62 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.62;
+	-moz-animation-iteration-count: 0.62;
+	-o-animation-iteration-count: 0.62;
+	animation-iteration-count: 0.62;
+}
+.percent-63 .circle-fill, .percent-63 .circle-fill-cover, .percent-63 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.63;
+	-moz-animation-iteration-count: 0.63;
+	-o-animation-iteration-count: 0.63;
+	animation-iteration-count: 0.63;
+}
+.percent-64 .circle-fill, .percent-64 .circle-fill-cover, .percent-64 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.64;
+	-moz-animation-iteration-count: 0.64;
+	-o-animation-iteration-count: 0.64;
+	animation-iteration-count: 0.64;
+}
+.percent-65 .circle-fill, .percent-65 .circle-fill-cover, .percent-65 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.65;
+	-moz-animation-iteration-count: 0.65;
+	-o-animation-iteration-count: 0.65;
+	animation-iteration-count: 0.65;
+}
+.percent-66 .circle-fill, .percent-66 .circle-fill-cover, .percent-66 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.66;
+	-moz-animation-iteration-count: 0.66;
+	-o-animation-iteration-count: 0.66;
+	animation-iteration-count: 0.66;
+}
+.percent-67 .circle-fill, .percent-67 .circle-fill-cover, .percent-67 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.67;
+	-moz-animation-iteration-count: 0.67;
+	-o-animation-iteration-count: 0.67;
+	animation-iteration-count: 0.67;
+}
+.percent-68 .circle-fill, .percent-68 .circle-fill-cover, .percent-68 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.68;
+	-moz-animation-iteration-count: 0.68;
+	-o-animation-iteration-count: 0.68;
+	animation-iteration-count: 0.68;
+}
+.percent-69 .circle-fill, .percent-69 .circle-fill-cover, .percent-69 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.69;
+	-moz-animation-iteration-count: 0.69;
+	-o-animation-iteration-count: 0.69;
+	animation-iteration-count: 0.69;
+}
+.percent-70 .circle-fill, .percent-70 .circle-fill-cover, .percent-70 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.7;
+	-moz-animation-iteration-count: 0.7;
+	-o-animation-iteration-count: 0.7;
+	animation-iteration-count: 0.7;
+}
+.percent-71 .circle-fill, .percent-71 .circle-fill-cover, .percent-71 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.71;
+	-moz-animation-iteration-count: 0.71;
+	-o-animation-iteration-count: 0.71;
+	animation-iteration-count: 0.71;
+}
+.percent-72 .circle-fill, .percent-72 .circle-fill-cover, .percent-72 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.72;
+	-moz-animation-iteration-count: 0.72;
+	-o-animation-iteration-count: 0.72;
+	animation-iteration-count: 0.72;
+}
+.percent-73 .circle-fill, .percent-73 .circle-fill-cover, .percent-73 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.73;
+	-moz-animation-iteration-count: 0.73;
+	-o-animation-iteration-count: 0.73;
+	animation-iteration-count: 0.73;
+}
+.percent-74 .circle-fill, .percent-74 .circle-fill-cover, .percent-74 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.74;
+	-moz-animation-iteration-count: 0.74;
+	-o-animation-iteration-count: 0.74;
+	animation-iteration-count: 0.74;
+}
+.percent-75 .circle-fill, .percent-75 .circle-fill-cover, .percent-75 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.75;
+	-moz-animation-iteration-count: 0.75;
+	-o-animation-iteration-count: 0.75;
+	animation-iteration-count: 0.75;
+}
+.percent-76 .circle-fill, .percent-76 .circle-fill-cover, .percent-76 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.76;
+	-moz-animation-iteration-count: 0.76;
+	-o-animation-iteration-count: 0.76;
+	animation-iteration-count: 0.76;
+}
+.percent-77 .circle-fill, .percent-77 .circle-fill-cover, .percent-77 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.77;
+	-moz-animation-iteration-count: 0.77;
+	-o-animation-iteration-count: 0.77;
+	animation-iteration-count: 0.77;
+}
+.percent-78 .circle-fill, .percent-78 .circle-fill-cover, .percent-78 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.78;
+	-moz-animation-iteration-count: 0.78;
+	-o-animation-iteration-count: 0.78;
+	animation-iteration-count: 0.78;
+}
+.percent-79 .circle-fill, .percent-79 .circle-fill-cover, .percent-79 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.79;
+	-moz-animation-iteration-count: 0.79;
+	-o-animation-iteration-count: 0.79;
+	animation-iteration-count: 0.79;
+}
+.percent-80 .circle-fill, .percent-80 .circle-fill-cover, .percent-80 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.8;
+	-moz-animation-iteration-count: 0.8;
+	-o-animation-iteration-count: 0.8;
+	animation-iteration-count: 0.8;
+}
+.percent-81 .circle-fill, .percent-81 .circle-fill-cover, .percent-81 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.81;
+	-moz-animation-iteration-count: 0.81;
+	-o-animation-iteration-count: 0.81;
+	animation-iteration-count: 0.81;
+}
+.percent-82 .circle-fill, .percent-82 .circle-fill-cover, .percent-82 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.82;
+	-moz-animation-iteration-count: 0.82;
+	-o-animation-iteration-count: 0.82;
+	animation-iteration-count: 0.82;
+}
+.percent-83 .circle-fill, .percent-83 .circle-fill-cover, .percent-83 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.83;
+	-moz-animation-iteration-count: 0.83;
+	-o-animation-iteration-count: 0.83;
+	animation-iteration-count: 0.83;
+}
+.percent-84 .circle-fill, .percent-84 .circle-fill-cover, .percent-84 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.84;
+	-moz-animation-iteration-count: 0.84;
+	-o-animation-iteration-count: 0.84;
+	animation-iteration-count: 0.84;
+}
+.percent-85 .circle-fill, .percent-85 .circle-fill-cover, .percent-85 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.85;
+	-moz-animation-iteration-count: 0.85;
+	-o-animation-iteration-count: 0.85;
+	animation-iteration-count: 0.85;
+}
+.percent-86 .circle-fill, .percent-86 .circle-fill-cover, .percent-86 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.86;
+	-moz-animation-iteration-count: 0.86;
+	-o-animation-iteration-count: 0.86;
+	animation-iteration-count: 0.86;
+}
+.percent-87 .circle-fill, .percent-87 .circle-fill-cover, .percent-87 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.87;
+	-moz-animation-iteration-count: 0.87;
+	-o-animation-iteration-count: 0.87;
+	animation-iteration-count: 0.87;
+}
+.percent-88 .circle-fill, .percent-88 .circle-fill-cover, .percent-88 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.88;
+	-moz-animation-iteration-count: 0.88;
+	-o-animation-iteration-count: 0.88;
+	animation-iteration-count: 0.88;
+}
+.percent-89 .circle-fill, .percent-89 .circle-fill-cover, .percent-89 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.89;
+	-moz-animation-iteration-count: 0.89;
+	-o-animation-iteration-count: 0.89;
+	animation-iteration-count: 0.89;
+}
+.percent-90 .circle-fill, .percent-90 .circle-fill-cover, .percent-90 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.9;
+	-moz-animation-iteration-count: 0.9;
+	-o-animation-iteration-count: 0.9;
+	animation-iteration-count: 0.9;
+}
+.percent-91 .circle-fill, .percent-91 .circle-fill-cover, .percent-91 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.91;
+	-moz-animation-iteration-count: 0.91;
+	-o-animation-iteration-count: 0.91;
+	animation-iteration-count: 0.91;
+}
+.percent-92 .circle-fill, .percent-92 .circle-fill-cover, .percent-92 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.92;
+	-moz-animation-iteration-count: 0.92;
+	-o-animation-iteration-count: 0.92;
+	animation-iteration-count: 0.92;
+}
+.percent-93 .circle-fill, .percent-93 .circle-fill-cover, .percent-93 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.93;
+	-moz-animation-iteration-count: 0.93;
+	-o-animation-iteration-count: 0.93;
+	animation-iteration-count: 0.93;
+}
+.percent-94 .circle-fill, .percent-94 .circle-fill-cover, .percent-94 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.94;
+	-moz-animation-iteration-count: 0.94;
+	-o-animation-iteration-count: 0.94;
+	animation-iteration-count: 0.94;
+}
+.percent-95 .circle-fill, .percent-95 .circle-fill-cover, .percent-95 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.95;
+	-moz-animation-iteration-count: 0.95;
+	-o-animation-iteration-count: 0.95;
+	animation-iteration-count: 0.95;
+}
+.percent-96 .circle-fill, .percent-96 .circle-fill-cover, .percent-96 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.96;
+	-moz-animation-iteration-count: 0.96;
+	-o-animation-iteration-count: 0.96;
+	animation-iteration-count: 0.96;
+}
+.percent-97 .circle-fill, .percent-97 .circle-fill-cover, .percent-97 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.97;
+	-moz-animation-iteration-count: 0.97;
+	-o-animation-iteration-count: 0.97;
+	animation-iteration-count: 0.97;
+}
+.percent-98 .circle-fill, .percent-98 .circle-fill-cover, .percent-98 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.98;
+	-moz-animation-iteration-count: 0.98;
+	-o-animation-iteration-count: 0.98;
+	animation-iteration-count: 0.98;
+}
+.percent-99 .circle-fill, .percent-99 .circle-fill-cover, .percent-99 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 0.99;
+	-moz-animation-iteration-count: 0.99;
+	-o-animation-iteration-count: 0.99;
+	animation-iteration-count: 0.99;
+}
+.percent-100 .circle-fill, .percent-100 .circle-fill-cover, .percent-100 .circle-fill-cover-cover {
+	-webkit-animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-o-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+}
